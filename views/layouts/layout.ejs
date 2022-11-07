@@ -7,18 +7,27 @@
     <title>App</title>
 </head>   
 <style>
+    *{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body{
+        background-image: url('/images/back.jpg');
+        /* background-repeat:no-repeat; */
+        background-size:cover;
+        background-position:center;
+    }
     .cont{
         top: 0;
         bottom: 0;
         right: 0;
         left: 0;
         margin:auto;
-        width: 200px;
-        height:180px;
+        width: 350px;
+        height:300px;
         padding:30px;
         border-radius: 10px;
-        background-color: #fff000;
-        box-shadow: 1px 1px 5px 1px #00000050;
+        background: url('/images/aa.jpg');
+        box-shadow: 1px 1px 5px 1px #00000080;
     }
     .cont2{
         display: none;
@@ -29,37 +38,66 @@
         left: 0;
         margin:auto;
         width: 200px;
-        height:180px;
+        height:300px;
         padding:30px;
         border-radius: 10px;
         background-color: #fff000;
         box-shadow: 1px 1px 5px 1px #00000050;
     }
+    .vido{
+        max-width: 100%;
+    }
     .cont1{
         margin:10px;
-        height:200px;
+        height:250px;
     }
     h2{
         text-align: center;
     }
+    p{
+        
+    }
     body{
-        background-color: #6CCFF6;
+        background-color: #fff;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .qwe{
         border:none;
         padding:5px;
         width:180px;
+        min-height: 300px;
         border-radius: 5px;
         box-shadow: 1px 1px 2px 1px #00000030;
     }
     .btn{
         border: none;
-        background-color: #6CCFFf;
-        padding:8px;
+        background-color: #6CCFFf00;
+        border: 1px solid #00000080;
+        padding:15px;
+        transition: background-color 0.3s ease-out;
         border-radius: 5px;
         box-shadow: 1px 1px 2px 1px #00000030;
         
+    }
+    .btn:hover{
+        background-color: #00000080;
+        color: #fff;
+    }
+    .vid{
+        border-radius: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position:fixed;
+        text-align: center;
+        background-color: #00000060;
+        width: fit-content;
+        padding:10px;
+        height: 500px;
+        backdrop-filter: blur(5px);
+    }
+    .txt{
+        color: #fff;
     }
 </style>
 <body>
