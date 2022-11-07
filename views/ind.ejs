@@ -1,0 +1,17 @@
+<div class="cont">
+    <form action="/" method="get">
+        Mood : <br><input class="qwe" name="mood" type="text" placeholder="Happy/Sad"><br><br>
+        Language : <br><input class="qwe" name="lang" type="text" placeholder="Telugu/Hindi/Tamil"><br><br>
+        <center>
+            <input class="btn" type="submit">
+        </center>
+    </form>
+</div>
+
+
+<center>
+    <p>You can view the video of random songs by the options you have selected or listen to the music only..!</p>
+    <p class="cont1">
+        <%- locals.mood || "" %>
+    </p>
+</center>
